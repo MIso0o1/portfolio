@@ -300,7 +300,7 @@ function App() {
                   <Calendar className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-semibold">Experience</p>
-                    <p className="text-sm text-muted-foreground">4+ Years</p>
+                    <p className="text-sm text-muted-foreground">5+ Years</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">

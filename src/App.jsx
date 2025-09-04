@@ -284,7 +284,7 @@ function App() {
               </div>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a software developer with over 4 years of professional experience, currently working as a freelance developer. 
+                I'm a software developer with over 5 years of professional experience, currently working as a freelance developer. 
                 My journey began at Deutsche Telekom as an SAP Administrator, then evolved into Azure Data Engineering at Accenture, 
                 where I worked on cutting-edge projects involving natural language processing and AI technologies.
               </p>
@@ -443,6 +443,18 @@ function App() {
               >
                 <Linkedin className="h-5 w-5" />
                 LinkedIn
+              </a>
+            </Button>
+
+            <Button size="lg" variant="outline" asChild className="text-lg px-8 py-3 btn-enhanced">
+              <a 
+                href="https://github.com/MIso0o1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Github className="h-5 w-5" />
+                GitHub
               </a>
             </Button>
           </div>

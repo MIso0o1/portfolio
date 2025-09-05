@@ -105,12 +105,12 @@ function App() {
   ]
 
   const certifications = [
-    "AZ-900 - Azure Fundamentals",
-    "DP-900 - Azure Data Fundamentals", 
-    "PL-900 - Power Platform Fundamentals",
-    "AI-102 - Azure AI Engineer Associate",
-    "AI-900 - Azure AI Fundamentals",
-    "SC-900 - Security, Compliance, and Identity Fundamentals"
+    { name: "AZ-900 - Azure Fundamentals", url: "https://www.credly.com/badges/6d99ab87-8428-46aa-828e-d61adf25a63f/public_url" },
+    { name: "DP-900 - Azure Data Fundamentals", url: "https://www.credly.com/badges/a0e63edc-4475-4785-806b-7cb1db94d0fd" }, 
+    { name: "PL-900 - Power Platform Fundamentals", url: "https://www.credly.com/badges/27beb349-0124-4971-84f2-408d987ca326?source=linked_in_profile" },
+    { name: "AI-102 - Azure AI Engineer Associate", url: "https://www.credly.com/badges/58978855-1d12-4b26-b078-b923c4f3f8c4?source=linked_in_profile" },
+    { name: "AI-900 - Azure AI Fundamentals", url: "https://www.credly.com/badges/bf4e34bb-f1b3-47a7-826c-a3ac54df94ea?source=linked_in_profile" },
+    { name: "SC-900 - Security, Compliance, and Identity Fundamentals", url: "https://www.credly.com/badges/2c430986-84d2-4fc6-aa40-13e322afaa16?source=linked_in_profile" }
   ]
 
   return (
@@ -401,16 +401,18 @@ function App() {
           
           <div className="text-center scroll-animate">
             <h3 className="text-2xl font-bold text-foreground mb-8">Microsoft Azure Certifications</h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
-              {certifications.map((cert, index) => (
-                <Card key={index} className="p-4 card-hover scroll-animate" style={{animationDelay: `${index * 0.05}s`}}>
-                  <div className="flex items-center gap-3">
-                    <Award className="h-6 w-6 text-primary" />
-                    <span className="text-sm font-medium">{cert}</span>
-                  </div>
-                </Card>
-              ))}
-            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {certifications.map((cert, index) => (
+              <button
+                key={index}
+                className="w-full h-auto py-4 px-6 border border-border rounded-lg text-left flex items-center justify-start transition-all duration-300 hover:bg-muted/50 hover:border-primary bg-card"
+                onClick={() => window.open(cert.url, '_blank', 'noopener,noreferrer')}
+              >
+                <Award className="h-6 w-6 text-primary mr-3 flex-shrink-0" />
+                <span className="text-lg font-medium text-foreground flex-grow">{cert.name}</span>
+              </button>
+            ))}
+          </div>
           </div>
         </div>
       </section>
@@ -472,6 +474,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-muted-foreground">
             © 2024 Michal Šomský. Built with React and Tailwind CSS.
+          </p>
+          <p className="text-muted-foreground mt-2">
+            michal.somsky@protonmail.com
           </p>
         </div>
       </footer>

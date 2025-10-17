@@ -71,7 +71,7 @@ function App() {
       title: "Document Translator",
       description: "AI-powered document translation tool that can translate DOCX, PDF, XLSX, and PPTX files to about 20 languages using advanced AI technology.",
       technologies: ["AI", "Web APIs", "File Processing", "React"],
-      link: "https://www.translatedocuments.net",
+      link: "https://www.translateweb-new.vercel.app",
       image: documentTranslator
     },
     {

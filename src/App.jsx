@@ -99,7 +99,7 @@ function App() {
 
   const skills = [
     { category: "Cloud & DevOps", items: ["Microsoft Azure", "Azure Functions", "Azure DevOps", "Docker"] },
-    { category: "Programming", items: ["Python", "JavaScript", "Node.js", "React", "SQL"] },
+    { category: "Programming", items: ["Python", "JavaScript", "Node.js", "React", "SQL", "Django"] },
     { category: "Integration", items: ["webMethods", "REST APIs", "SOAP", "JSON", "XML"] },
     { category: "Data & AI", items: ["OpenAI", "Data Analysis", "ETL", "Power BI"] }
   ]

@@ -284,7 +284,7 @@ function App() {
               </div>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a software developer with over 5 years of professional experience, currently working as a freelance developer. 
+                I'm a software developer with over 6 years of professional experience, currently working as a freelance developer. 
                 My journey began at Deutsche Telekom as an SAP Administrator, then evolved into Azure Data Engineering at Accenture, 
                 where I worked on cutting-edge projects involving natural language processing and AI technologies.
               </p>
@@ -300,7 +300,7 @@ function App() {
                   <Calendar className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-semibold">Experience</p>
-                    <p className="text-sm text-muted-foreground">5+ Years</p>
+                    <p className="text-sm text-muted-foreground">6+ Years</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
@@ -473,7 +473,7 @@ function App() {
       <footer className="bg-muted/50 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 Michal Šomský. Built with React and Tailwind CSS.
+            © 2025 Michal Šomský. Built with React and Tailwind CSS.
           </p>
           <p className="text-muted-foreground mt-2">
             michal.somsky@protonmail.com

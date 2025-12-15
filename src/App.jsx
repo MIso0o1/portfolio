@@ -11,7 +11,7 @@ import documentTranslator from './assets/document-translator.png'
 import brewtifulBreak from './assets/brewtiful-break.png';
 import TypingEffect from './components/ui/typing-effect.jsx';
 import hieroglyphTranslator from './assets/hieroglyph-translator.png'
-import cherryhabit from './assets/cherryhabit.jpg'
+import cherryhabit from './assets/cherryhabit.png'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

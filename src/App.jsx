@@ -11,7 +11,7 @@ import documentTranslator from './assets/document-translator.png'
 import brewtifulBreak from './assets/brewtiful-break.png';
 import TypingEffect from './components/ui/typing-effect.jsx';
 import hieroglyphTranslator from './assets/hieroglyph-translator.png'
-import dashboardPro from './assets/dashboard-pro.png'
+import cherryhabit from './assets/cherryhabit.jpg'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -89,11 +89,11 @@ function App() {
       image: hieroglyphTranslator
     },
     {
-      title: "Dashboard Pro",
-      description: "Customizable all-in-one dashboard application with drag-and-drop widgets for financial tracking, task management, and activity monitoring.",
-      technologies: ["React", "Data Visualization", "Widgets", "Dashboard"],
-      link: "https://dashboard-zeta-coral.vercel.app",
-      image: dashboardPro
+      title: "Cherry Habit",
+      description: "Habit & skill tracker application that helps users grow their virtual tree by maintaining consistent daily habits and building new skills.",
+      technologies: ["React", "Habit Tracking", "Interactive UI", "Gamification"],
+      link: "https://cherryhabit.com",
+      image: cherryhabit
     }
   ]
 

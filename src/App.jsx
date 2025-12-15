@@ -342,8 +342,8 @@ function App() {
                   <img 
                     src={project.image} 
                     alt={`${project.title} screenshot`}
-                    className="w-full h-full object-cover object-top transition-all duration-300 group-hover:scale-105"
-                    style={{objectPosition: 'center 20%'}}
+                    className="w-full h-full object-contain transition-all duration-300 group-hover:scale-105"
+                    
                   />
                 </div>
                 <CardHeader>
